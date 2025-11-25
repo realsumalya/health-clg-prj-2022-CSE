@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.doctor_back_info{
+    position: relative;
+   }
+   .doctor_back_parent{
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+   }
+   .doctor_back_parent img{
+    height: 500px;
+    width: 100%;
+    
+ }
+   .doctor_back_child{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 150px;
+    width: 50%;
+    right: 0;
+   }
+/*.doctor_back_child .pro_image{
+	
+	max-width: 250px;
+	max-height: 300px;
+	border: 5px solid #fff;
+
+
+}
+.doctor_back_child .pro_image img{
+	width: 250px;
+	height: 200px;
+	padding: 0px 30px;
+
+
+
+}*/
+
+.doctor_back_child h1{
+   font-size: 48px;
+}
+.doctor_back_child h1,h4, p{
+    color: #fff;
+}
+
+
+
+
+.doctor_details_info{
+		
+	position: relative;
+
+}
+.doctor_details_img{
+
+margin-left: 475px;
+border: 2px solid white;
+}
+
+.doctor_details_img .img_doc{
+     width: 200px;
+     background-color: #fff;
+     border: 2px solid #0d5174;
+     margin-top: -100px;
+}
+
+
+.doc_d .row .dd h4{
+    color:#0d5174 ;
+    font-size: 34px;
+    padding-top: 5px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
